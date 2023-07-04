@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import './hojas-de-estilo/global.css'
 import Boton from './componentes/Boton';
@@ -6,7 +7,6 @@ import freeCodeCampLogo from './imagenes/freeCodeCampLogo.jpg';
 import { useState } from 'react';
 
 function App() {
-
   const [numClics, setNumClics] = useState(0);
 
   const manejarClic = () => {

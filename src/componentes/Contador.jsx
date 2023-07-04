@@ -1,4 +1,3 @@
-import React from "react";
 import '../hojas-de-estilo/global.css';
 import '../hojas-de-estilo/Contador.css';
 
